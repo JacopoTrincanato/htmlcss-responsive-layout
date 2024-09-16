@@ -63,10 +63,11 @@ main, footer{
 
 .container{
     width: 90%;
+    max-width: 767px;
 }
 
 .container-sm{
-    width: 80%;
+    width: 70%;
 }
 
 .d-flex{
@@ -188,10 +189,23 @@ footer{
     
     .txt-shadows{
         text-align: left;
+        font-size: 3rem;
+    }
+
+    .container-md{
+        max-width: 921px;
+    }
+
+    .container-sm-md{
+        max-width: 700px;
     }
 
     .d-block{
         display: inline-block;
+    }
+
+    .d-nones{
+        display: none;
     }
 
     .wraps{
@@ -214,9 +228,67 @@ footer{
     .floating{
         float: left;
     }
+
+    .col-12-md{
+        width: 100%;
+    }
+
+    .js-start{
+        justify-content: flex-start;
+    }
+
+    .col-md{
+        width: 20%
+    }
+
+    .w-50{
+        width: 50%;
+        background-size: contain;
+    }
+
+
 }
 
-/*@media screen (min-width:768px) {
-    
-}*/
+@media screen and (min-width:992px) {
+    .d-flex-lg{
+        display: flex;
+    }
+
+    .txt-recipe{
+        font-size: 2.5rem;
+    }
+
+    .col-4-lg{
+        width: calc(100% / 12 * 4);
+    }
+
+    .col-8-lg{
+        width: calc(100% / 12 * 8);
+    }
+
+    .ai-lg{
+        align-items: center;
+    }
+
+    .d-flex-lg{
+        display: flex;
+    }
+
+    .col-12-lg{
+        width: 100%;
+    }
+
+    .d-block-lg{
+        display: block;
+        font-size: 0.75rem;
+    }
+
+    .p-socials-lg{
+        padding: 0.25rem 0.75rem;
+    }
+
+    .space-between-lg{
+        justify-content: space-between;
+    }
+}
  
