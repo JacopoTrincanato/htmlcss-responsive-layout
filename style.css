@@ -90,6 +90,12 @@ main, footer{
     margin-bottom: 0.5rem;
 }
 
+.txt-white{
+    color: var(--bool-white);
+    margin-bottom: 0.5rem;
+    font-size: 0.6rem;
+}
+
 .my-2{
     margin: 1rem 0;
 }
@@ -102,6 +108,18 @@ main, footer{
     background-color: var(--bool-white);
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.final-row{
+    padding: 2rem 0;
+}
+
+.col{
+    width: 25%;
+}
+
 /* #header region*/
 
 header{
@@ -112,7 +130,7 @@ header{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--bool-title);
     }
 }
@@ -143,6 +161,7 @@ header{
 
 #presentation{
     h2{
+        display: inline-block;
         border-bottom: 5px solid var(--bool-title);
     }
 
@@ -151,6 +170,53 @@ header{
     }
 }
 
-/* #footer region*/
+.d-none{
+    display: none;
+}
 
+/* #footer region*/
+footer{
+    background-color: var(--bool-footer);
+    
+}
+
+.center{
+    justify-self: center;
+}
+
+@media screen and (min-width:768px) {
+    
+    .txt-shadows{
+        text-align: left;
+    }
+
+    .d-block{
+        display: inline-block;
+    }
+
+    .wraps{
+        flex-wrap: wrap;
+    }
+
+    .col-4-md{
+        width: calc(100% / 12 * 4);
+        font-size: 0.8rem;
+    }
+
+    .d-flex-md{
+        display: flex;
+    }
+
+    .p-socials{
+        padding: 0.5rem 2.5rem;
+    }
+
+    .floating{
+        float: left;
+    }
+}
+
+/*@media screen (min-width:768px) {
+    
+}*/
  
