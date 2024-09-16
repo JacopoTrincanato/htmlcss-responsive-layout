@@ -53,6 +53,10 @@ main, footer{
     width: 100%;
 }
 
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+
 .container, .container-sm{
     margin: auto;
 }
@@ -82,8 +86,8 @@ main, footer{
     margin-bottom: 0.5rem;
 }
 
-.py-2{
-    padding: 1rem 0;
+.my-2{
+    margin: 1rem 0;
 }
 
 .py-4{
@@ -93,7 +97,6 @@ main, footer{
 .bg-white{
     background-color: var(--bool-white);
 }
-
 
 /* #header region*/
 
@@ -131,5 +134,16 @@ header{
         padding: 0.5rem .75rem;
         border-radius: 1rem;
         box-shadow: 0 0 10px lightgray;
+    }
+}
+
+#presentation{
+    h2{
+        border-bottom: 5px solid var(--bool-title);
+    }
+
+    img{
+        width: 80%;
+        margin: auto;
     }
 }
