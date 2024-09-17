@@ -68,6 +68,7 @@ main, footer{
 
 .container-sm{
     width: 70%;
+    max-width: 550px;
 }
 
 .d-flex{
@@ -94,7 +95,8 @@ main, footer{
 .txt-white{
     color: var(--bool-white);
     margin-bottom: 0.5rem;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    overflow: hidden;
 }
 
 .my-2{
@@ -113,12 +115,13 @@ main, footer{
     flex-wrap: wrap;
 }
 
-.final-row{
+.p-footer{
     padding: 2rem 0;
 }
 
 .col{
     width: 25%;
+    overflow: hidden;
 }
 
 /* #header region*/
@@ -167,7 +170,7 @@ header{
     }
 
     img{
-        width: 80%;
+        width: 300px;
     }
 }
 
@@ -193,7 +196,7 @@ footer{
     }
 
     .container-md{
-        max-width: 921px;
+        max-width: 920px;
     }
 
     .container-sm-md{
@@ -210,6 +213,10 @@ footer{
 
     .wraps{
         flex-wrap: wrap;
+    }
+
+    .nowraps{
+        flex-wrap: nowrap;
     }
 
     .col-4-md{
@@ -237,9 +244,13 @@ footer{
         justify-content: flex-start;
     }
 
-    .col-md{
-        width: 20%
-    }
+    .txt-white-md{
+        font-size: 1rem;
+    }   
+    
+    .txt-white-sm-md{
+        font-size: 0.8rem;
+    } 
 
     .w-50{
         width: 50%;
@@ -299,5 +310,8 @@ footer{
         display: inline-block;
     }
 
+    .col-lg{
+        gap: 10px;
+    }
 }
  
