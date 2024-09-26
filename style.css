@@ -279,9 +279,8 @@ footer{
     }
 
     .floating img{
-        width: 15000px;
         float: left;
-        
+        padding-right: 1rem;
     }
 
     .col-12-md{
