@@ -27,7 +27,7 @@ body{
     background-color: var(--bool-body);
 }
 
-img, iframe{
+img{
     max-width: 100%;
 }
 
@@ -212,6 +212,10 @@ header{
     display: none;
 }
 
+.floating p{
+    margin: 1rem auto;
+}
+
 /* #footer region*/
 footer{
     background-color: var(--bool-footer);
@@ -274,11 +278,10 @@ footer{
         padding: 0.5rem 2.5rem;
     }
 
-    .floating{
-        width: 50%;
-        margin: 0;
-        
+    .floating img{
+        width: 15000px;
         float: left;
+        
     }
 
     .col-12-md{
